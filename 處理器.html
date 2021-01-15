@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note 20 Series</title>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <style>
+        .myresponsive {
+            /* width:100%;*/
+            max-width: 100%;
+        }
+
+        .c {
+            font-size: 25px;
+        }
+
+        .d {
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body style="background-color:bisque">
+    <div class="container">
+        <div class="row">
+            <h1></h1>
+        </div>
+        <nav class="navbar navbar-default">
+            <!-- 選單表頭區塊 -->
+            <div class="navbar-header">
+                <!-- 按鈕 -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- 選單 -->
+            <div id="mynav" class="navbar-collapse collapse">
+                <ul class="navbar-nav nav">
+                    <li class="c"><a href="index.html">
+                            <!-- 選單項目 1 --><b>介紹</b>
+                        </a></li>
+                    <li class="c"><a href="詳細規格.html">
+                            <!-- 選單項目 2 --><b>詳細規格</b>
+                        </a></li>
+                    <li class="c"><a href="處理器.html">
+                            <!-- 選單項目 3 --><b>處理器</b>
+                        </a></li>
+                    <li class="c">
+                        <!-- 選單項目 3 --><a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>關於</b><b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li class="d"><a href="5G.html">
+                                    <!-- 選單項目 1 --><b>5G</b>
+                                </a></li>
+                            <li class="d"><a href="相關配件.html">
+                                    <!-- 選單項目 2 --><b>相關配件</b>
+                                </a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- 相片輪播元件 -->
+        <div id="photoCarousel" class="carousel slide vertical" data-ride="carousel" data-interval="500">
+            <!-- Indicators 瀏覽控制 
+  <ol class="carousel-indicators" style="margin-top:50px">
+    <li data-target="#photoCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#photoCarousel" data-slide-to="1"></li>
+    <li data-target="#photoCarousel" data-slide-to="2"></li>
+  </ol>
+  -->
+            <!-- 建立相片清單 -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="media/0105_1000.jpg">
+                </div>
+                <div class="item">
+                    <img src="media/星霧金000.jpg">
+                </div>
+                <div class="item">
+                    <img src="media/0105_5000.jpg">
+                </div>
+                <div class="item active">
+                    <img src="media/0105_3000.jpg">
+                </div>
+                <div class="item active">
+                    <img src="media/0105_2.jpg">
+                </div>
+                <div class="item active">
+                    <img src="media/0105_7000.jpg">
+                </div>
+                <div class="item active">
+                    <img src="media/0105_8000.jpg">
+                </div>
+            </div>
+            <!-- 上一張/下一張控制
+  <a class="left carousel-control" href="#photoCarousel" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left"></span></a>
+  <a class="right carousel-control" href="#photoCarousel" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right"></span></a>
+   -->
+        </div>
+        <div class="row">
+            <p style="font-size: 19px">手機晶片大廠高通 (Qualcomm) 上週在夏威夷舉辦了「Snapdragon 技術高峰會」，一口氣為大家帶來了三款新晶片，分別有新一代旗艦級處理器 S865、全新中高階處理器 S765 以及專為遊戲所打造的 S765G，在發佈會中高通也表示已經有多款搭載新晶片的手機都確定明年會陸續現身囉～</p>
+            <img src="https://agirls.aottercdn.com/media/f795ef9d-5d4e-4afe-992e-d25d7a51dd52.jpg" width="50%" alt="">
+            <p></p>
+            <img src="https://agirls.aottercdn.com/media/7b8eff6c-b34d-4b06-a4e8-d09bf23ed483.jpg" width="50%" alt="">
+            <p style="font-size: 19px">高通全新的三款晶片在效能、下載 / 上傳速度、影像處理、AI 學習、圖像運算和遊戲體驗這幾個方面都有進一步的提升，S865 更支援 144Hz 螢幕更新率、10-bit HDR 遊戲、最多五鏡頭配置、2 億畫素相機、8K 錄影等功能</p>
+            <p></p>
+            <p style="font-size: 19px">這幾天爆料大神 Ice Universe 也在 Twitter 上公開了 S865 的 Geekbench 4.4 跑分結果，單核心是 4303 分、多核心則是 13344 分，相較於前一代 S855+ (單核約 3600 分、多核約 11000 分 ) 都有不少進步，整體效能約提升 25%、圖形運算能力則是提升 20%；但若是和蘋果最新的 A13 晶片相比 (單核 5472 分、多核 13769 分 ) 則還有一小段差距</p>
+            <p></p>
+            <img src="https://agirls.aottercdn.com/media/26202316-2b45-48ad-a467-086b14ec0659.jpg" width="35%" alt="">
+            <p></p>
+            <p style="font-size: 19px">雖然單看效能 S865 還是有點小輸 A13，但比起蘋果，高通在 5G 這塊領域可是領先的多！這次 S865、S765 和 S765G 全都支援 5G，其中 S765 / S765G 更是高通旗下首個將 X52 5G 基頻晶片整合在一起的處理器，S865 則是採用外掛驍龍 X55 5G 基頻晶片的方式來進行 5G 網路的連結</p>
+            <p></p>
+            <p style="font-size: 19px">對於沒有在 S865 上整合 5G 基頻晶片這件事後續其實也引發外界諸多討論，畢竟聯發科最新的旗艦機片「天磯 1000」可是做到了這件事，不免會被拿來比較，而高通也給出回應表示技術上絕對是可行的，但考量到 5G 的發展尚未成熟，明年整個市場環境或許還會有不小的變化，為了有進一步優化的可能所以官方認為採取外掛的方式是最好的解決方案！</p>
+            <p></p>
+            <p style="font-size: 19px">目前小米的聯合創始人林斌已經發文表示小米 10 將會採用 S865 晶片，而本週將登場的 Redmi K30 系列也極有可能就會用上最新的 S765G 晶片。其他像三星的 S11 系列、OPPO 的 Reno 系列、Nokia、Motorola 等品牌也都紛紛表示明年會有多項產品採用高通的新晶片們，咱們就一同拭目以待吧！</p>
+<footer class="bg-light text-center text-lg-start">
+<p>我是最底端....
+</footer>
+</body></html>

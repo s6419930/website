@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note 20 Series</title>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <style>
+        .myresponsive {
+            /* width:100%;*/
+            max-width: 100%;
+        }
+
+        .c {
+            font-size: 25px;
+        }
+
+        .d {
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+
+<body style="background-color:bisque">
+    <div class="container">
+        <div class="row">
+            <h1></h1>
+        </div>
+        <nav class="navbar navbar-default">
+            <!-- 選單表頭區塊 -->
+            <div class="navbar-header">
+                <!-- 按鈕 -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- 選單 -->
+            <div id="mynav" class="navbar-collapse collapse">
+                <ul class="navbar-nav nav">
+                    <li class="c"><a href="index.html">
+                            <!-- 選單項目 1 --><b>介紹</b>
+                        </a></li>
+                    <li class="c"><a href="詳細規格.html">
+                            <!-- 選單項目 2 --><b>詳細規格</b>
+                        </a></li>
+                    <li class="c"><a href="處理器.html">
+                            <!-- 選單項目 3 --><b>處理器</b>
+                        </a></li>
+                    <li class="c">
+                        <!-- 選單項目 3 --><a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>關於</b><b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li class="d"><a href="5G.html">
+                                    <!-- 選單項目 1 --><b>5G</b>
+                                </a></li>
+                            <li class="d"><a href="相關配件.html">
+                                    <!-- 選單項目 2 --><b>相關配件</b>
+                                </a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- 相片輪播元件 -->
+        <div id="photoCarousel" class="carousel slide vertical" data-ride="carousel" data-interval="500">
+            <!-- Indicators 瀏覽控制 
+  <ol class="carousel-indicators" style="margin-top:50px">
+    <li data-target="#photoCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#photoCarousel" data-slide-to="1"></li>
+    <li data-target="#photoCarousel" data-slide-to="2"></li>
+  </ol>
+  -->
+            <!-- 建立相片清單 -->
+            <div class="carousel-inner">
+    <div class="item active">
+      <img src="media/0105_1000.jpg">
+    </div>
+    <div class="item">
+      <img src="media/星霧金000.jpg">
+    </div>
+    <div class="item">
+      <img src="media/0105_5000.jpg">
+    </div>
+    <div class="item active">
+      <img src="media/0105_3000.jpg">
+    </div>
+    <div class="item active">
+      <img src="media/0105_2.jpg">
+    </div>
+    <div class="item active">
+      <img src="media/0105_7000.jpg">
+    </div>
+    <div class="item active">
+      <img src="media/0105_8000.jpg">
+    </div>
+  </div>
+  <!-- 上一張/下一張控制
+  <a class="left carousel-control" href="#photoCarousel" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left"></span></a>
+  <a class="right carousel-control" href="#photoCarousel" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right"></span></a>
+   --> 
+</div>
+            <!-- 上一張/下一張控制
+  <a class="left carousel-control" href="#photoCarousel" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left"></span></a>
+  <a class="right carousel-control" href="#photoCarousel" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right"></span></a>
+   -->
+            <h1>5G 是什麼？</h1>
+            <p></p>
+            <p class="d">5G 指的是第五代行動通訊技術（5th Generation Wireless System）。中華電信前董事長呂學錦在《行動 5.0》解釋，全球電信標準化機構 3GPP（3rd Generation Partnership Project）是 5G 規格的主要制定者，自 2015 年啟動 5G 標準化前期研究，了解市場所需的新服務及技術要求，並於 2018 年與 2019 年分別發布第一與第二階段的 5G 技術標準。</p>
+            <p></p>
+            <p class="d">各項 5G 標準技術的制定和使用，都是為了實現國際電信聯盟（ITU）替 5G 制定的三大目標：增強型行動寬頻（eMBB）、高可靠度和低時延通訊（uRLLC）、大規模機器型通訊（mMTC），也就是 5G「高速度」「低時延」「多連結」的三大特性。</p>
+            <p></p>
+            <h3>5G 特性一：高速度</h3>
+            <p></p>
+            <p class="d"> 根據通訊分析機構 Opensignal 研究，5G 每秒可達 500Mb 左右的下載速度，將比 4G 快上 10 倍。而 5G 能如此快速，遠傳電信企業網路規劃與維運協理汪以仁指出，台灣在 4G 之前最高頻率的頻段位置在 2.6GHz（吉赫，頻率單位），5G 則是瞄準頻率為 3GHz 以上的頻段。</p>
+            <p class="d"> 什麼是頻段？把無線裝置在通訊時使用的頻率範圍，想成一條有非常多線道的馬路，馬路上許多線道（頻率）已有廣播、衛星等無線通訊設備使用。汪以仁解釋，就無線電傳輸的特性而言，頻段愈寬、頻率愈高，通訊速度就愈快。所以政府需要規劃出夠寬的線道空間（寬頻段），且位置合適（高頻率）的區域，開放給電信業者布建，才能達成 5G 的速度要求。</p>
+            <p class="d"> 以 2019 年政府開放 5G 競標的頻段中，在 3.5GHz 的頻率附近，開放寬度為 0.27GHz，也就是頻率在 3.3～3.57GHz 的頻段，而在 28GHz 的頻率附近，由於愈高頻率的頻段，通常愈空曠，所以開放寬度達 2.5GHz，也就是 27GHz～29.5GHz 的頻段。</p>
+            <p class="d"> 汪以仁解釋，目前 28GHz 的頻段，由於能支援的設備與技術市場較不成熟，所以取得 3.5GHz 頻段的電信業者，能較快布建 5G 網路，搶攻市場，標金相對昂貴。</p>
+            <img src="https://img.technews.tw/wp-content/uploads/2020/09/23151201/5g-figure-out-1.jpg" alt="">
+            <p></p>
+            <h3>5G 特性二：低時延</h3>
+            <p></p>
+            <p class="d"> 低時延特性指的是通訊的回應時間，《5G 來了》解釋，5G 的回應時間為 1 毫秒，約為 4G 的十分之一。汪以仁指出，這點主要得靠裝置跟基地台之間通訊方式的改進，過往裝置與基地台在通訊前，需先交涉多次才能傳輸訊息，但現在技術則能精簡交涉過程。</p>
+            <h3>5G 特性三：多連結</h3>
+            <p></p>
+            <p class="d"> 最後，在多連結部分，《5G 來了》指出 4G 時，一台基地台只能連線 100 台左右的端末裝置，5G 則能讓上萬台裝置同時連線。汪以仁解釋，因為技術更新可切分不同裝置的通信屬性需要，讓不需時常通訊的裝置，可以同時多台連到基地台。</p>
+            <img src="https://img.technews.tw/wp-content/uploads/2019/04/22091740/shutterstock_1183499047-624x351.jpg" alt="">
+
+<footer class="bg-light text-center text-lg-start">
+<p>我是最底端....
+</footer>
+
+</html>
